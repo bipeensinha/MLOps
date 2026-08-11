@@ -1,0 +1,11 @@
+﻿Requirement ID,Requirement Description,Linked Test Case(s),Expected Outcome
+R-01,"Raw billing data must be valid (no blanks, duplicates, invalid values)",TC-01,Raw data validated successfully
+R-02,Feature Store must be generated correctly from raw data,TC-02,“Feature Store Created Successfully” message displayed
+R-03,Feature Store values must match raw data values,TC-03,Feature Store values equal raw data values
+R-04,Feature Store must update when raw data changes,TC-04,Updated values reflected in Feature Store
+R-05,Missing values in raw data must be handled according to business rules,TC-05,"Missing values handled (Error, Blank, or Default)"
+R-06,Duplicate customer records must not exist in Feature Store,TC-06,No duplicates present; defect raised if found
+R-07,"AI model must consume Feature Store, not raw data",TC-07,Model reads customer_features.csv
+R-08,AI model must generate predictions,TC-08,"Prediction generated (e.g., “Normal Billing”)"
+R-09,AI predictions must change when feature values change,TC-09,"Prediction changes (e.g., “Billing Anomaly Detected”)"
+R-10,Defects must be documented with proper severity and reproducible steps,TC-10,"Defect logged with Title, Steps, Expected vs Actual, Severity"
