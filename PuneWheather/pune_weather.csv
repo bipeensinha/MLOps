@@ -1,0 +1,16 @@
+Temperature,Humidity,WindSpeed,Rain
+30,80,10,Yes
+31,75,12,Yes
+29,85,8,Yes
+32,60,15,No
+34,50,18,No
+35,45,20,No
+28,90,7,Yes
+33,55,16,No
+30,82,9,Yes
+36,40,22,No
+29,88,6,Yes
+34,52,19,No
+31,78,11,Yes
+35,48,21,No
+28,92,5,Yes
